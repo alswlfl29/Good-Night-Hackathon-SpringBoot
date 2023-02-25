@@ -1,0 +1,57 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+.*.md.html
+.attach_pid*
+.metadata
+build.log
+dependency-reduced-pom.xml
+manifest.yml
+.gradletasknamecache
+secrets.yml
+.flattened-pom.xml
+application.yml
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.recommenders
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*#
+*.jar
+*.sw?
+*~
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac ###
+.DS_Store
+
+MANIFEST.MF
